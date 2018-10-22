@@ -137,7 +137,7 @@
 		5C6D20C61F76C16B00B022FA = {
 			isa = PBXGroup;
 			children = (
-				5C6D20D11F76C16B00B022FA /* The Neuron Education Project */,
+				5C6D20D11F76C16B00B022FA /* Postsynaptic Simulator */,
 				5C6D20D01F76C16B00B022FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C6D20D11F76C16B00B022FA /* The Neuron Education Project */ = {
+		5C6D20D11F76C16B00B022FA /* Postsynaptic Simulator */ = {
 			isa = PBXGroup;
 			children = (
 				4CDDD5EA211A89F600DE9129 /* View Controllers */,
@@ -164,7 +164,7 @@
 				5C6D20D21F76C16B00B022FA /* AppDelegate.swift */,
 				5C6D20E41F76C16B00B022FA /* Info.plist */,
 			);
-			path = "The Neuron Education Project";
+			path = "Postsynaptic Simulator";
 			sourceTree = "<group>";
 		};
 		5C6D20EA1F7803D100B022FA /* Level Scenes */ = {
@@ -188,7 +188,8 @@
 				5CFA9F31207BBBFC00E86492 /* Builder Classes */,
 				5C676B8A1FAFCE0F00F55268 /* Neuron Classes */,
 			);
-			path = Classes;
+			name = Classes;
+			path = "View Controllers/Classes";
 			sourceTree = "<group>";
 		};
 		5C828C081FB4FB18009DDE59 /* Particles */ = {
@@ -482,7 +483,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y9ML64MSS;
-				INFOPLIST_FILE = "The Neuron Education Project/Info.plist";
+				INFOPLIST_FILE = "Postsynaptic Simulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galenoshea.PostsynapticSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,7 +500,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Y9ML64MSS;
-				INFOPLIST_FILE = "The Neuron Education Project/Info.plist";
+				INFOPLIST_FILE = "Postsynaptic Simulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galenoshea.PostsynapticSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
