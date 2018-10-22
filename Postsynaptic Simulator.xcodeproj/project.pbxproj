@@ -105,6 +105,7 @@
 				4C3D06AC21227735007E4C8C /* HomeViewController.swift */,
 				4CDDD5E62118BEB600DE9129 /* TableViewController.swift */,
 				4CDDD5E82118E48100DE9129 /* LevelViewController.swift */,
+				5C6D20ED1F78046400B022FA /* Classes */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -154,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				4CDDD5EA211A89F600DE9129 /* View Controllers */,
-				5C6D20ED1F78046400B022FA /* Classes */,
 				5C676B8B1FAFCE8E00F55268 /* Level Classes */,
 				5C6D20EA1F7803D100B022FA /* Level Scenes */,
 				5C828C081FB4FB18009DDE59 /* Particles */,
@@ -188,8 +188,7 @@
 				5CFA9F31207BBBFC00E86492 /* Builder Classes */,
 				5C676B8A1FAFCE0F00F55268 /* Neuron Classes */,
 			);
-			name = Classes;
-			path = "View Controllers/Classes";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5C828C081FB4FB18009DDE59 /* Particles */ = {
