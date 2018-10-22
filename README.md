@@ -1,5 +1,12 @@
 # Postsynaptic-Simulator Level Tutorial
 
+## Requirements
+* Apple Computer
+
+## Download Xcode
+* Download Xcode from Appstore. You will use ths IDE and code in swift to develop levels.
+* Open Xcode and select "Clone an Existing Project" then paste https://github.com/galenoshea/Postsynaptic-Simulator.git
+
 ## TableViewController
 * Navigate to tableViewController Class. Append the level number and level name to the end of level array.
 
