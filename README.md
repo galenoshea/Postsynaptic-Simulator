@@ -1,8 +1,9 @@
 # Postsynaptic-Simulator Level Tutorial
 
 ## TableViewController
-* Navigate to tableViewController Class. Append the level number and level name to the end of level array. Format:
-  , ("Level <#>", "<Level Name>")
+* Navigate to tableViewController Class. Append the level number and level name to the end of level array.
+
+  , ("Level #", "Level Name")
   
 *Notice the comma to separate the new element.
 
@@ -12,14 +13,13 @@
 ## LevelViewController
 * In the ViewDidLoad method add a path to your level by following how the other levels are instantiated. Change only the numbers that apply to your level class.
 
-Format:
 <img width="583" alt="screen shot 2018-10-22 at 3 00 51 pm" src="https://user-images.githubusercontent.com/23369633/47312794-4e36d200-d60b-11e8-8daf-facab246f97f.png">
 
 
 ## Level Class
 * Create new Scene Class by going File > New > File > Swift File.
 * Copy the code from the image below. Change and add attributes as you see fit.
-Format:
+
 <img width="1139" alt="screen shot 2018-10-22 at 3 02 33 pm" src="https://user-images.githubusercontent.com/23369633/47312885-89390580-d60b-11e8-94b2-6617ce469b1d.png">
 
 ## Level Scene
