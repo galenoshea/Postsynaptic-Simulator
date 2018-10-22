@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C3D06AD21227735007E4C8C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D06AC21227735007E4C8C /* HomeViewController.swift */; };
-		4C43A9172146F1CA006ADEB7 /* LevelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43A9162146F1CA006ADEB7 /* LevelProtocol.swift */; };
 		4CDDD5E52118BE2300DE9129 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDD5E42118BE2300DE9129 /* customTableViewCell.swift */; };
 		4CDDD5E72118BEB600DE9129 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDD5E62118BEB600DE9129 /* TableViewController.swift */; };
 		4CDDD5E92118E48100DE9129 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDD5E82118E48100DE9129 /* LevelViewController.swift */; };
@@ -49,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		4C3D06AC21227735007E4C8C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4C43A9162146F1CA006ADEB7 /* LevelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelProtocol.swift; sourceTree = "<group>"; };
 		4CDDD5E42118BE2300DE9129 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		4CDDD5E62118BEB600DE9129 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4CDDD5E82118E48100DE9129 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
@@ -228,7 +226,6 @@
 				5C828C021FB4D623009DDE59 /* CollisionCategory.swift */,
 				4CDDD5E42118BE2300DE9129 /* customTableViewCell.swift */,
 				5CE62D701F90600000481567 /* NeuronBuilder.swift */,
-				4C43A9162146F1CA006ADEB7 /* LevelProtocol.swift */,
 				5CFA9F2D2079A4DF00E86492 /* LevelScene.swift */,
 				5CB6E14E20916C19006894CF /* UI Sprites */,
 			);
@@ -327,7 +324,6 @@
 				5C36F2352023712B00B15CED /* Level 7.swift in Sources */,
 				5CFA9F332082738100E86492 /* InstructionsPopUpSprite.swift in Sources */,
 				5C828C011FB4B622009DDE59 /* CellBody.swift in Sources */,
-				4C43A9172146F1CA006ADEB7 /* LevelProtocol.swift in Sources */,
 				5CE4CEE0202BA29B001D5280 /* PopUpSprite.swift in Sources */,
 				4CDDD5E92118E48100DE9129 /* LevelViewController.swift in Sources */,
 				5CBBFD3E2022573C003415C6 /* Level 1.swift in Sources */,
