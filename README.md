@@ -1,29 +1,32 @@
 # Postsynaptic-Simulator Level Tutorial
 
-### TableViewController
--At the end of the level array add a new element which contains level #, and the name of your level in brackets.
-Example: 
-  , ("Level 7", "Spatial Summation vs Decay") 
-*Notice the comma to seperate the new element.
+## TableViewController
+* Navigate to tableViewController Class. Append the level number and level name to the end of level array. Format:
+  , ("Level <#>", "<Level Name>")
+  
+*Notice the comma to separate the new element.
 
-### LevelViewController
-In the ViewDidLoad method add a path to your level by copying how the other levels are instantiated.
-Example:
-
-if(self.name == "Level #"){
-                if let scene = Level#(fileNamed: self.name) {
-                    scene.scaleMode = .aspectFill
-                    levelView.presentScene(scene, transition: SKTransition.fade(withDuration: 0.5))
-                }
-            }
-*Replace # with your level number.            
-
-### Level Class
--Create new Scene Class by going File > New > File > Swift File.
+<img width="1087" alt="screen shot 2018-10-22 at 2 56 01 pm" src="https://user-images.githubusercontent.com/23369633/47312546-a4efdc00-d60a-11e8-8d62-0bb908ed7d60.png">
 
 
-### Level Scene
--Create new Scene Class by going File > New > File > Spritekit Scene.
-add Nodes by clicking the library button and adding empty nodes along the path (these will be invisible) 
-and color nodes for the visible nodes that will be clicked on. On the right panel you can select the texture
-to distuinguish inhibitory and excitatory. Give each node the naming convention Node followed by a unqiue number.
+## LevelViewController
+* In the ViewDidLoad method add a path to your level by following how the other levels are instantiated. Change only the numbers that apply to your level class.
+
+Format:
+<img width="583" alt="screen shot 2018-10-22 at 3 00 51 pm" src="https://user-images.githubusercontent.com/23369633/47312794-4e36d200-d60b-11e8-8daf-facab246f97f.png">
+
+
+## Level Class
+* Create new Scene Class by going File > New > File > Swift File.
+* Copy the code from the image below. Change and add attributes as you see fit.
+Format:
+<img width="1139" alt="screen shot 2018-10-22 at 3 02 33 pm" src="https://user-images.githubusercontent.com/23369633/47312885-89390580-d60b-11e8-94b2-6617ce469b1d.png">
+
+## Level Scene
+* Create new Scene Class by going File > New > File > Spritekit Scene.
+* add Nodes by clicking the library button (circle with a square inside on top right of screen) and adding empty nodes along the path (these will be invisible) 
+and colour nodes for the visible nodes that will be clicked on.
+* Change texture by choosing an image from the right of screen to distinguish inhibitory excitatory.
+* Give each node the naming convention Node followed by a unique number by changing the name attribute on the right of screen.
+
+<img width="1398" alt="screen shot 2018-10-22 at 3 06 16 pm" src="https://user-images.githubusercontent.com/23369633/47313098-0cf2f200-d60c-11e8-938d-3b05529b45fe.png">
