@@ -29,6 +29,13 @@
 
 <img width="1139" alt="screen shot 2018-10-22 at 3 02 33 pm" src="https://user-images.githubusercontent.com/23369633/47312885-89390580-d60b-11e8-94b2-6617ce469b1d.png">
 
+* Custom Goals can be created by adding an override method to update.
+* Here the Goal is to inhibit the neuron from firing for 45 seconds to win the level.
+
+<img width="711" alt="screen shot 2018-10-22 at 4 10 14 pm" src="https://user-images.githubusercontent.com/23369633/47316376-fbfaae80-d614-11e8-8232-a013db1ff8a4.png">
+
+
+
 ## Level Scene
 * Create new Scene Class by going File > New > File > Spritekit Scene.
 * add Nodes by clicking the library button (circle with a square inside on top right of screen) and adding empty nodes along the path (these will be invisible) 
